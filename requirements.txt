@@ -1,0 +1,11 @@
+chatterbox-tts==0.1.1
+diffusers==0.29.0
+gradio==5.38.0
+numpy==1.26.0
+soundfile==0.13.1
+torch==2.6.0
+torchaudio==2.6.0
+transformers==4.46.3
+PyYAML==6.0.2
+pandas==1.5.3
+speechbrain==1.0.3

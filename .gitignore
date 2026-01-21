@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+venv/
+env/
+.anaconda/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Output Directories (From your logs)
+Results/
+Experiment_*/
+
+# Heavy Data (Keep Assets, ignore raw training data)
+# data/
