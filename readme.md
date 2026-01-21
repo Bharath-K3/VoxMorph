@@ -98,8 +98,8 @@ Follow these instructions to set up a dedicated environment for running the VoxM
     │   ├── ecapa.py
     │   ├── hubert.py
     │   └── wav2vec2.py
-    ├── Experiment_1/
-    ├── Outputs/
+    ├── experiment_1/
+    ├── outputs/
     ├── app.py
     ├── config.yaml
     ├── inference.py
@@ -148,7 +148,7 @@ python inference.py --source_a "path/to/speaker_A.wav" --source_b "path/to/speak
 | `--source_b` | Path to the second speaker audio      | `Assets/Audio2.flac` |
 | `--alpha`    | Interpolation factor (0.0 - 1.0)      | `0.5`                |
 | `--text`     | The text content to be synthesized    | Default string       |
-| `--output_dir`| Directory to save results            | `Outputs/`           |
+| `--output_dir`| Directory to save results            | `outputs/`           |
 
 ### 3. Advanced Inference (VoxMorph.py)
 
@@ -165,18 +165,18 @@ For research experiments requiring robust data handling, use `VoxMorph.py`.
 | `--source_b`   | Path to a file OR a directory containing clips for Spk B | File path or Folder path                   |
 | `--alpha`      | Interpolation factor (0.0 = A, 1.0 = B)                  | `0.0` - `1.0`                              |
 | `--encoder`    | Override the internal speaker encoder                    | `default`, `ecapa`, `wav2vec2`, `hubert`   |
-| `--output_dir` | Directory to save the triplet results                    | Defaults to `Results/`                     |
+| `--output_dir` | Directory to save the triplet results                    | Defaults to `results/`                     |
 
 **Usage:**
 
 ```bash
 # Using directories as input (The script handles the consolidation)
-python VoxMorph.py --source_a "data/speaker_1_dir_30" --source_b "data/speaker_2_dir_6000" --alpha 0.5 --output_dir "Experiment_1"
+python VoxMorph.py --source_a "data/speaker_1_dir_30" --source_b "data/speaker_2_dir_6000" --alpha 0.5 --output_dir "experiment_1"
 ```
 
 ```bash
 # Using ECAPA-TDNN Encoder
-python VoxMorph.py --source_a "data/speaker_1_dir_30" --source_b "data/speaker_2_dir_6000" --alpha 0.5 --encoder ecapa --output_dir "Experiment_ECAPA"
+python VoxMorph.py --source_a "data/speaker_1_dir_30" --source_b "data/speaker_2_dir_6000" --alpha 0.5 --encoder ecapa --output_dir "experiment_ECAPA"
 ```
 
 ## Citation
