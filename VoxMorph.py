@@ -226,7 +226,7 @@ def main():
     parser.add_argument("--source_b", required=True, help="Path to file OR directory for Speaker B")
     parser.add_argument("--alpha", type=float, default=0.5, help="Morphing Factor")
     parser.add_argument("--text", type=str, help="Text to speak")
-    parser.add_argument("--output_dir", default="Results", help="Directory to save outputs")
+    parser.add_argument("--output_dir", default="results", help="Directory to save outputs")
     parser.add_argument("--encoder", type=str, default=None, choices=["default", "ecapa", "wav2vec2", "hubert"], help="Override encoder type")
     
     args = parser.parse_args()
