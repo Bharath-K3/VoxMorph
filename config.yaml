@@ -1,0 +1,37 @@
+# VoxMorph Configuration System
+# ==============================================================================
+
+system:
+  device: "cuda"            # "cuda" or "cpu"
+  sample_rate: 24000        # Output sample rate
+  temp_dir: "temp_profiles" # Directory for consolidated audio files
+  log_level: "INFO"
+
+model:
+  name: "ChatterboxTTS"
+  
+  # Prosody/Timbre Encoder Selection
+  # Options: 
+  #   - "default"   (Uses Chatterbox's internal 24k encoder)
+  #   - "ecapa"     (Uses SpeechBrain ECAPA-TDNN, 16k input, expands 192->256)
+  #   - "wav2vec2"  (Uses HuggingFace Wav2Vec2-Base, 16k input, compresses 768->256)
+  #   - "hubert"    (Uses HuggingFace HuBERT-Base, 16k input, compresses 768->256)
+  encoder_type: "default" 
+  
+  # Emotion Exaggeration (0.0 - 1.0) - controls expressiveness during profiling
+  exaggeration: 0.5
+
+morphing:
+  # Interpolation Method
+  # Options: 
+  #   - "slerp"  (Spherical Linear Interpolation - Geometric path)
+  #   - "lerp"   (Linear Interpolation - Weighted Euclidean path)
+  #   - "linear" (Linear Averaging - Static midpoint baseline (A+B)/2, ignores alpha)
+  method: "slerp"
+  
+  # Threshold for Slerp to fallback to Lerp (if vectors are parallel)
+  dot_threshold: 0.9995
+
+inference:
+  # Text to speak if not provided via CLI
+  default_text: "The concept of morphing implies a smooth and seamless transition between two distinct states."
