@@ -1,7 +1,10 @@
 # VoxMorph: Scalable Zero-Shot Voice Identity Morphing via Disentangled Embeddings
 
 [![Conference](https://img.shields.io/badge/ICASSP-2026-blue)](https://2026.ieeeicassp.org/)
-[![Paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2601.20883) 
+[![Project Page](https://img.shields.io/badge/Project_Page-GitHub.io-blue)](https://vcbsl.github.io/VoxMorph/) 
+[![Demo](https://img.shields.io/badge/Demo-HuggingFace-orange)](https://huggingface.co/spaces/BharathK333/VoxMorph) 
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/BharathK333/VoxMorph-Dataset) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official PyTorch implementation for our paper, **"VoxMorph: Scalable Zero-Shot Voice Identity Morphing via Disentangled Embeddings"**, accepted at the **IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2026**.
