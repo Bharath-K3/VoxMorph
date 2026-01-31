@@ -5,6 +5,8 @@
 [![Project Page](https://img.shields.io/badge/Project_Page-GitHub.io-blue)](https://vcbsl.github.io/VoxMorph/) 
 [![Demo](https://img.shields.io/badge/Demo-HuggingFace-orange)](https://huggingface.co/spaces/BharathK333/VoxMorph) 
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/BharathK333/VoxMorph-Dataset) 
+[![Model](https://img.shields.io/badge/Model-HuggingFace-green )](https://huggingface.co/BharathK333/VoxMorph-Models)
+[![Paper HF](https://img.shields.io/badge/HuggingFace-Paper-red?logo=huggingface)](https://huggingface.co/papers/2601.20883)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official PyTorch implementation for our paper, **"VoxMorph: Scalable Zero-Shot Voice Identity Morphing via Disentangled Embeddings"**, accepted at the **IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2026**.
@@ -181,6 +183,10 @@ python VoxMorph.py --source_a "data/speaker_1_dir_30" --source_b "data/speaker_2
 # Using ECAPA-TDNN Encoder
 python VoxMorph.py --source_a "data/speaker_1_dir_30" --source_b "data/speaker_2_dir_6000" --alpha 0.5 --encoder ecapa --output_dir "experiment_ECAPA"
 ```
+
+## Resources
+
+Visit our [project page](https://vcbsl.github.io/VoxMorph/) for audio demonstrations and additional results. You can also try the interactive [demo](https://huggingface.co/spaces/BharathK333/VoxMorph), download the [dataset](https://huggingface.co/datasets/BharathK333/VoxMorph-Dataset), and access pre-trained [model weights](https://huggingface.co/BharathK333/VoxMorph-Models) on Hugging Face.
 
 ## Citation
 
