@@ -1,7 +1,8 @@
 # VoxMorph: Scalable Zero-Shot Voice Identity Morphing via Disentangled Embeddings
 
-[![Conference](https://img.shields.io/badge/ICASSP-2026-blue)](https://2026.ieeeicassp.org/)
-[![Paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2601.20883) 
+<!-- [![Conference](https://img.shields.io/badge/ICASSP-2026-blue)](https://2026.ieeeicassp.org/) -->
+[![ICASSP Paper](https://img.shields.io/badge/ICASSP-Paper-blue)](https://ieeexplore.ieee.org/document/11462383)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2601.20883) 
 [![Project Page](https://img.shields.io/badge/Project_Page-GitHub.io-blue)](https://vcbsl.github.io/VoxMorph/) 
 [![Demo](https://img.shields.io/badge/Demo-HuggingFace-orange)](https://huggingface.co/spaces/BharathK333/VoxMorph) 
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/BharathK333/VoxMorph-Dataset) 
