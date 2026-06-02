@@ -193,10 +193,22 @@ Visit our [project page](https://vcbsl.github.io/VoxMorph/) for audio demonstrat
 If you find this work useful in your research, please consider citing our ICASSP 2026 paper:
 
 ```bibtex
-@inproceedings{krishnamurthy2026voxmorph,
+@INPROCEEDINGS{11462383,
+  author={Krishnamurthy, Bharath and Rattani, Ajita},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={VoxMorph: Scalable Zero-Shot Voice Identity Morphing via Disentangled Embeddings}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={13332-13336},
+  keywords={Filtering;Filters;Deepfakes;Vocoders;Videos;Protocols;HTTP;Wide area networks;Communication equipment;Communication systems;Voice morphing;text-to-speech;zero-shot learning;speaker embedding;interpolation;speech synthesis},
+  doi={10.1109/ICASSP55912.2026.11462383}
+}
+
+@article{krishnamurthy2026voxmorph_arxiv,
   title={VoxMorph: Scalable Zero-Shot Voice Identity Morphing via Disentangled Embeddings},
   author={Krishnamurthy, Bharath and Rattani, Ajita},
-  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  journal={arXiv preprint arXiv:2601.20883},
   year={2026}
 }
 ```
